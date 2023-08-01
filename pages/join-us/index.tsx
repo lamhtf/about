@@ -3,7 +3,7 @@ import styles from "./styles/joinus.module.scss";
 
 const ORANGE = "#e87722";
 
-const Title = ({ children }: { children: string }) => (
+const Title = ({ children }: { children: any }) => (
   <div className={styles.title}>{children}</div>
 );
 const Text = ({ children }: { children: string }) => (
