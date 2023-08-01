@@ -1,0 +1,28 @@
+$primary-color: #183028;
+
+$primary-color50: #F3BB90;
+$primary-bg: #E87722;
+
+.body {
+    color: $primary-color;
+    background: $primary-bg;
+}
+
+.container {
+    padding: 16px;
+    background-color: $primary-bg;
+    border-radius: 4px;
+    border-color: $primary-color50;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: $primary-color;
+
+
+&:hover {
+    background: $primary-color50;
+  }
+
+}
+
+
+.hi{}
