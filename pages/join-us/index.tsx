@@ -91,7 +91,7 @@ export default function JoinUs() {
         <Title>
           Please submit your resume / CV along with your contact information to {""}
           <a className={styles.email} href="mailto:felix.ht.lam@fwd.com">felix.ht.lam@fwd.com</a> and email 
-          title <div>Apply for Analyst Programmer.</div>
+          title `<span style={{color: ORANGE}}>Apply for Analyst Programmer</span>`.
         </Title>
       </div>
     </>
