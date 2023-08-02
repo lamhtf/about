@@ -43,7 +43,7 @@ export default function AboutUs() {
         <br/>
         <div className={styles.text}>Additionally, we organize monthly wine gatherings at 5:30pm, which offer a great opportunity to unwind and socialize with colleagues.</div>
         <br/>
-        <div className={styles.text}>Our team also participates in happy hours a few times per month with our Group Digital teammates, fostering a sense of community and camaraderie within the company.</div>
+        <div className={styles.text}>Our team also participates in happy hours a few times per month with our Group Digital teammates, fostering a sense of community and camaraderie across different departments and teams.</div>
       </div>
       <br/>
       <div className={styles.content}>
