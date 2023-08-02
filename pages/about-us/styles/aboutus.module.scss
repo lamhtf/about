@@ -1,0 +1,33 @@
+$primary-color: #183028;
+$primary-color75: #3b6e66;
+$bg-color20: #fae4d3;
+$font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$font2: "Courier New", Courier, monospace;
+$shadow-color: #FEF9F4;
+
+.content {
+    background-color: $bg-color20;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 10px 5px 5px $shadow-color;
+  }
+
+.title {
+    margin-top: 8px;
+    font-weight: bold;
+    color: $primary-color;
+    font-family: $font;
+    &:hover {
+      background-color: white;
+    }
+  }
+
+.text {
+    // font-weight: bold;
+    color: $primary-color;
+    font-family: $font;
+    margin-top: 2px;
+    &:hover {
+      background-color: white;
+    }
+  }

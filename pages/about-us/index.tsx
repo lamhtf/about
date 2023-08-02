@@ -1,10 +1,42 @@
 import { TopMenuBar } from "@/components/TopMenuBar";
+import styles from './styles/aboutus.module.scss'
 
 export default function AboutUs() {
   return (
     <>
       <TopMenuBar />
-      <div>About us</div>
+      <br/>
+      <div className={styles.content}>
+        <div className={styles.title}>Group IT Development Team</div>
+        <div className={styles.text}>As a Group IT development team spearheading project development initiatives across the APAC region, we are thrilled to announce that our team is expanding.</div>
+        <br/>
+        <div className={styles.text}>We are currently seeking talented Expo frontend developers to join us in this exciting journey.</div>
+        <br/>
+        <div className={styles.text}>As the best development team in Group IT, we hold ourselves to high standards and are constantly pushing ourselves to learn and grow with cutting-edge technologies.</div>
+        <br/>
+      </div>
+      <br/>
+      <div className={styles.content}>
+        <div className={styles.title}>Team Culture</div>
+        <div className={styles.text}>Our team prides itself on cultivating a peer culture that is both fun and engaging.</div>
+        <div className={styles.text}>Laughter fills our office, creating an atmosphere that is far from quiet.</div>
+        <div className={styles.text}>You will find that many of our developers, like yourself, have similar backgrounds in boot camp training.</div>
+        <div className={styles.text}>Here, you will be welcomed into a tight-knit community that feels like a happy family.</div>  
+        <br/>
+      </div>
+      <br/>
+      <div className={styles.content}>
+        <div className={styles.title}>Work Life Balance</div>
+        <div className={styles.text}>We understand that you may have concerns about overtime, and we want to assure you that our team values work-life balance.</div>
+        <div className={styles.text}> In fact, most of our teammates leave promptly at 6pm each day.</div>
+        <div className={styles.text}>Additionally, we offer a work-from-home policy that allows you to work remotely for up to two days per week. This flexibility ensures that you can maintain a healthy balance between work and personal responsibilities.</div>
+        <br/>
+      </div>
+      <br/>
+      <div className={styles.content}>
+        <div className={styles.title}>Thanks ChatGPT</div>
+        <div className={styles.text}>Special thanks to ChatGPT for transforming my initial, broken English introduction into a more refined and elegant piece of writing.</div>
+      </div>
     </>
   );
 }
