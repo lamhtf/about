@@ -1,13 +1,13 @@
 import styles from "./styles/home.module.scss";
 import { TopMenuBar } from "@/components/TopMenuBar";
-import Image01 from '../assets/image01.jpg';
-import Image02 from '../assets/image02.jpg';
-import Image03 from '../assets/image03.jpg';
-import Image04 from '../assets/image04.jpg';
-import Image05 from '../assets/image05.jpg';
-import Image06 from '../assets/image06.jpg';
-import Image07 from '../assets/image07.jpg';
-import Image08 from '../assets/image08.jpg';
+import Image01 from '../public/image01.jpg';
+import Image02 from '../public/image02.jpg';
+import Image03 from '../public/image03.jpg';
+import Image04 from '../public/image04.jpg';
+import Image05 from '../public/image05.jpg';
+import Image06 from '../public/image06.jpg';
+import Image07 from '../public/image07.jpg';
+import Image08 from '../public/image08.jpg';
 import { useEffect, useState } from "react";
 import NxImage from 'next/image'
 
