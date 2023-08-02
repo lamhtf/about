@@ -38,10 +38,10 @@ export default function AboutUs() {
       </div>
       <br/>
       <div className={styles.content}>
-        <div className={styles.title}>Fruit, Coffee & Wine</div>
+        <div className={styles.title}>Fruits, Coffees & Wines</div>
         <div className={styles.text}>Our office is stocked with daily fresh fruit and complimentary beverages in the fridge, and we also provide free coffee capsules in the pantry to fuel your workday.</div>
         <br/>
-        <div className={styles.text}>Additionally, we organize monthly wine gatherings at 5:30pm, which offer a great opportunity to unwind and socialize with colleagues.</div>
+        <div className={styles.text}>Moreover, we organize monthly wine gatherings at 5:30pm, which offer a great opportunity to unwind and socialize with colleagues.</div>
         <br/>
         <div className={styles.text}>Our team also participates in happy hours a few times per month with our Group Digital teammates, fostering a sense of community and camaraderie across different departments and teams.</div>
       </div>
