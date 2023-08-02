@@ -32,6 +32,7 @@ export default function JoinUs() {
     <>
       <TopMenuBar />
       <br />
+      <div className={styles.text} style={{marginBottom: 16}}>Job Opening valid until September 2023</div>
       <div className={styles.content}>
         <span></span>
         <Title>Employment Type</Title>
@@ -88,9 +89,9 @@ export default function JoinUs() {
         <Title>Office Location</Title>
         <Text>TaiKoo</Text>
         <Title>
-          Please send your resume/CV including your contact methods to
-          <span style={{ color: ORANGE }}> felix.ht.lam@fwd.com</span> with
-          title “Apply for Analyst Programmer”
+          Please submit your resume / CV along with your contact information to {""}
+          <a className={styles.email} href="mailto:felix.ht.lam@fwd.com">felix.ht.lam@fwd.com</a> and email 
+          title <div>Apply for Analyst Programmer.</div>
         </Title>
       </div>
     </>

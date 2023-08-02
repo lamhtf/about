@@ -2,6 +2,7 @@ $primary-color: #183028;
 $primary-color50: #f3bb90;
 $primary-bg: #e87722;
 $white: white;
+$font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 .menu {
   padding: 0px;
@@ -10,7 +11,7 @@ $white: white;
   border-end-start-radius: 16px;
   border-color: $primary-color50;
   font-size: 20px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: $font;
   color: $primary-color;
   margin-top: -8px;
   flex-direction: row;
@@ -24,6 +25,7 @@ $white: white;
 
 .menu a {
   &:link {
+    color: black;
     text-decoration: none;
   }
   &:visited {
@@ -37,7 +39,6 @@ $white: white;
   margin: 16px;
   &:hover {
     color: $white;
-    font-weight: bold;
   }
 }
 
