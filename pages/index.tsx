@@ -9,18 +9,18 @@ import Image06 from '../public/image06.jpg';
 import Image07 from '../public/image07.jpg';
 import Image08 from '../public/image08.jpg';
 import { useEffect, useState } from "react";
-import NxImage from 'next/image'
+import NxImage, { StaticImageData } from 'next/image'
 
 export default function Home() {
 
   const [width, setWidth] = useState(0);
 
-  const Image = (props) => {
+  const Image = ({src, alt}:{src:StaticImageData, alt:string}) => {
 	  useEffect(() => {
       console.log('window.innerWidth',window.innerWidth);
 	    setWidth(window.innerWidth/1.5);
 	  });
-	  return <NxImage src={props.src} style={{ width: width, height: width/2, borderRadius:16 }} alt="Office" quality={10} objectFit="contain"/> ;
+	  return <NxImage src={src} style={{ width: width, height: width/2, borderRadius:16 }} alt={alt} quality={10} objectFit="contain"/> ;
 	};
 
   return (
