@@ -32,7 +32,9 @@ export default function JoinUs() {
     <>
       <TopMenuBar />
       <br />
-      <div className={styles.text} style={{marginBottom: 16}}>Job Opening valid until September 2023</div>
+      <div className={styles.text} style={{ marginBottom: 16 }}>
+        Job Opening valid until September 2023
+      </div>
       <div className={styles.content}>
         <span></span>
         <Title>Employment Type</Title>
@@ -89,9 +91,16 @@ export default function JoinUs() {
         <Title>Office Location</Title>
         <Text>TaiKoo</Text>
         <Title>
-          Please submit your resume / CV along with your contact information to {""}
-          <a className={styles.email} href="mailto:felix.ht.lam@fwd.com">felix.ht.lam@fwd.com</a> and email 
-          title `<span style={{color: ORANGE}}>Apply for Analyst Programmer</span>`.
+          Please submit your resume / CV along with your contact information to{" "}
+          {""}
+          <a
+            className={styles.email}
+            href="mailto:felix.ht.lam@fwd.com?subject=Apply for Analyst Programmer"
+          >
+            felix.ht.lam@fwd.com
+          </a>{" "}
+          and email subject as `
+          <span style={{ color: ORANGE }}>Apply for Analyst Programmer</span>`.
         </Title>
       </div>
     </>

@@ -1,9 +1,9 @@
 $primary-color: #183028;
 $primary-color75: #3b6e66;
 $bg-color20: #fae4d3;
-$font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 $font2: "Courier New", Courier, monospace;
-$shadow-color: #FEF9F4;
+$shadow-color: #fef9f4;
 
 .content {
   background-color: $bg-color20;
@@ -19,6 +19,7 @@ $shadow-color: #FEF9F4;
   font-family: $font;
   &:hover {
     background-color: white;
+    border-radius: 4px;
   }
 }
 .text {
@@ -28,6 +29,7 @@ $shadow-color: #FEF9F4;
   margin-top: 2px;
   &:hover {
     background-color: white;
+    border-radius: 4px;
   }
 }
 
@@ -43,12 +45,12 @@ $shadow-color: #FEF9F4;
   margin-top: 2px;
   &:hover {
     background-color: white;
+    border-radius: 4px;
   }
 }
 
 .email {
   color: #e87722;
   div {
-
   }
 }

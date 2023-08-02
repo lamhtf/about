@@ -2,7 +2,7 @@ $primary-color: #183028;
 $primary-color50: #f3bb90;
 $primary-bg: #e87722;
 $white: white;
-$font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
 .menu {
   padding: 0px;
@@ -40,6 +40,11 @@ $font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   &:hover {
     color: $white;
   }
+}
+
+.selected {
+  border-bottom: 4px solid;
+  border-color: $white;
 }
 
 .hi {

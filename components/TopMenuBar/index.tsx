@@ -16,8 +16,14 @@ const MenuItem = ({ label, link }: { label: string; link: string }) => {
   const router = useRouter();
   if (router.route === link)
     return (
-      <Link href={link}>
-        <span style={{ fontWeight: "bold", color: "white" }}>{label}</span>
+      <Link href={link} className={styles.selected}>
+        <span
+          style={{
+            color: "white",
+          }}
+        >
+          {label}
+        </span>
       </Link>
     );
   return (
