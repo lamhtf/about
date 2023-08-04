@@ -12,6 +12,7 @@ import { useEffect, useState } from "react";
 import NxImage, { StaticImageData } from "next/image";
 import { Metadata } from "next";
 import Head from "next/head";
+import { BottomBar } from "@/components/BottomBar";
 
 export const metadata: Metadata = {
   title: "We are FWD Group IT =P",
@@ -81,6 +82,7 @@ export default function Home() {
         <div className={styles.title}>Pantry Rest Area - Swing</div>
         <Image src={Image06} alt="Office" />
       </div>
+      <BottomBar />
     </>
   );
 }

@@ -1,0 +1,17 @@
+$primary-color: #183028;
+$primary-color50: #f3bb90;
+$primary-bg: #e87722;
+$white: white;
+$font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+.text {
+  margin: 4px;
+  color: $primary-color50;
+  font-size: 12px;
+  font-family: $font;
+  display: flex;
+  float: right;
+}
+
+.hi {
+}

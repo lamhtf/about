@@ -1,5 +1,6 @@
 import { TopMenuBar } from "@/components/TopMenuBar";
 import styles from "./styles/joinus.module.scss";
+import { BottomBar } from "@/components/BottomBar";
 
 const ORANGE = "#e87722";
 
@@ -103,6 +104,7 @@ export default function JoinUs() {
           <span style={{ color: ORANGE }}>Apply for Analyst Programmer</span>`.
         </Title>
       </div>
+      <BottomBar />
     </>
   );
 }
