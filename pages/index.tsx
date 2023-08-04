@@ -11,6 +11,7 @@ import Image08 from "../public/image08.jpg";
 import { useEffect, useState } from "react";
 import NxImage, { StaticImageData } from "next/image";
 import { Metadata } from "next";
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "We are FWD Group IT =P",
@@ -37,6 +38,16 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>Welcome to FWD Group IT Felix Team</title>
+        <meta
+          property="og:image"
+          content="https://fwdgo.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage06.51df1ff9.jpg&w=3840&q=10"
+        />
+        <meta property="og:image:type" content="image/jpg" />
+        <meta property="og:image:width" content="1000" />
+        <meta property="og:image:height" content="500" />
+      </Head>
       <TopMenuBar />
       <div className={styles.content}>
         <div className={styles.title}>Group IT</div>
