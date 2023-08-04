@@ -7,7 +7,7 @@ export const TopMenuBar = () => {
   return (
     <>
       <Head>
-        <title>Welcome to FWD Group IT Felix Team</title>
+        <title>Welcome to Felix Team</title>
         <meta
           property="og:image"
           content="https://fwdgo.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage06.51df1ff9.jpg&w=3840&q=10"
