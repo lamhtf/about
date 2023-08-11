@@ -73,30 +73,38 @@ export default function JoinUs() {
           <br />
           <Bullet>
             Join a large regional team to help develop multiple key regional
-            digital applications in web / mobile / tablet platforms
+            digital applications across web, mobile, and tablet platforms
           </Bullet>
           <Bullet>
-            Work closely with UI/UX Designers, Technical Team Leads, Frontend /
-            Backend Developers, Product Owners, BAs, QAs, etc.
+            Collaborate closely with UI/UX Designers, Technical Team Leads,
+            Frontend / Backend Developers, Product Owners, Business Analysts,
+            Quality Assurance, and other stakeholders
           </Bullet>
           <Bullet>
-            Work with multiple small teams, each with 6-10 developers, 1-2
-            Product Owners, 1-2 BAs, 1-2 QAs
+            Work with multiple small teams, each comprising 6-10 developers, 1-2
+            Product Owners, 1-2 BAs, and 1-2 QAs
           </Bullet>
-          <Bullet>Agile development with 2-week sprints</Bullet>
-          <Bullet>Support BAU for multiple regions</Bullet>
           <Bullet>
-            Hands-on experience in ReactNative / Expo / Next.js / React.js /
-            Typescript
+            Follow an Agile development approach with 2-week sprints
+          </Bullet>
+          <Bullet>Support BAU activities for multiple regions</Bullet>
+          <Bullet>
+            Possess hands-on experience in ReactNative / Expo / Next.js /
+            React.js / Typescript
           </Bullet>
           <Bullet>
             Knowledge on calling Restful API / React Query & Redux / Zustand is
             a must
           </Bullet>
-          <Bullet>Knowledge on Mongo / MS SQL Server is an advantage</Bullet>
-          <Bullet>Knowledge on Java maybe an advantage</Bullet>
           <Bullet>
-            Good written and verbal communication skills in English and Chinese
+            Familiarity with Mongo / MS SQL Server is an advantage
+          </Bullet>
+          <Bullet>
+            Basic understanding of Java / OOP concepts is an advantage
+          </Bullet>
+          <Bullet>
+            Exhibit strong written and verbal communication skills in English
+            and Chinese
           </Bullet>
           <Bullet>
             Focus on Frontend development on the first half year then gradually
