@@ -9,28 +9,31 @@ $shadow-color: #fef9f4;
   background-color: $bg-color20;
   border-radius: 16px;
   padding: 16px;
+  margin-top: 16px;
   box-shadow: 10px 5px 5px $shadow-color;
+  &:hover {
+    background-color: #ced8d6;
+  }
 }
 
 .title {
-  margin-top: 8px;
   font-weight: bold;
   color: $primary-color;
   font-family: $font;
-  &:hover {
-    background-color: white;
-    border-radius: 4px;
-  }
+  // &:hover {
+  //   background-color: white;
+  //   border-radius: 4px;
+  // }
 }
 .text {
   font-weight: bold;
   color: $primary-color75;
   font-family: $font;
   margin-top: 2px;
-  &:hover {
-    background-color: white;
-    border-radius: 4px;
-  }
+  // &:hover {
+  //   background-color: white;
+  //   border-radius: 4px;
+  // }
 }
 
 .point {
@@ -43,10 +46,10 @@ $shadow-color: #fef9f4;
   font-family: $font;
   margin-left: 12px;
   margin-top: 2px;
-  &:hover {
-    background-color: white;
-    border-radius: 4px;
-  }
+  // &:hover {
+  //   background-color: white;
+  //   border-radius: 4px;
+  // }
 }
 
 .email {

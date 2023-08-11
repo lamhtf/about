@@ -5,16 +5,6 @@ $font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 $font2: "Courier New", Courier, monospace;
 $shadow-color: #fef9f4;
 
-.title {
-  margin-bottom: 8px;
-  font-weight: bold;
-  color: $primary-color;
-  font-family: $font;
-  // &:hover {
-  //   background-color: white;
-  // }
-}
-
 .content {
   background-color: $bg-color20;
   border-radius: 16px;
@@ -24,4 +14,14 @@ $shadow-color: #fef9f4;
   &:hover {
     background-color: #ced8d6;
   }
+}
+
+.title {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: $primary-color;
+  font-family: $font;
+  // &:hover {
+  //   background-color: white;
+  // }
 }
