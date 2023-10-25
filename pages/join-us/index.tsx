@@ -33,28 +33,48 @@ export default function JoinUs() {
     <>
       <TopMenuBar />
       <br />
-      <div
-        className={styles.text}
-        style={{ marginBottom: 16, marginLeft: 12, color: ORANGE }}
-      >
-        Job opening remains valid until the end of August 2023
+      <div className={styles.text} style={{ marginBottom: 16, marginLeft: 12 }}>
+        Job opening remains valid until the first week of November 2023
+        <hr></hr>
+        <p>
+          <Title>
+            * Remember to{" "}
+            <a
+              className={styles.email}
+              href="mailto:felix.ht.lam@fwd.com?subject=Apply for Programmer"
+            >
+              submit
+            </a>{" "}
+            your resume / CV along with your contact information to {""}
+            <a
+              className={styles.email}
+              href="mailto:felix.ht.lam@fwd.com?subject=Apply for Programmer"
+            >
+              felix.ht.lam@fwd.com
+            </a>{" "}
+            and email subject as `
+            <span style={{ color: ORANGE }}>Apply for Programmer</span>
+            `.
+          </Title>
+        </p>
       </div>
       <div className={styles.content}>
-        <span></span>
+        <br />
         <Title>Employment Type</Title>
         <br />
         <Text>Full Time, Contract</Text>
         <p>
           <Title>Title</Title>
           <br />
-          <Text>Analyst Programmer (Frontend)</Text>
+          <Text>Programmer (Frontend)</Text>
         </p>
         <p>
           <Title>About the Person</Title>
           <br />
           <Bullet>
-            Degree holder in Computer Science / Technology or equivalent
+            Degree holder in Computer Science / IT Bootcamp or equivalent
           </Bullet>
+          <Bullet>0 - 1 year IT experience</Bullet>
           <Bullet>
             Passionate about technology and eager to acquire new technical
             skills
@@ -67,6 +87,7 @@ export default function JoinUs() {
             Interested in transitioning from a pure frontend developer role to
             becoming a full stack developer
           </Bullet>
+          <Bullet>Wants to have a clear career path and development</Bullet>
         </p>
         <p>
           <Title>About the Job</Title>
@@ -107,29 +128,14 @@ export default function JoinUs() {
             and Chinese
           </Bullet>
           <Bullet>
-            Focus on Frontend development on the first half year then gradually
-            get involved in some of the backend development
+            Focus on Frontend development first then gradually get involved in
+            some of the backend development
           </Bullet>
         </p>
         <p>
           <Title>Office Location</Title>
           <br />
           <Text>TaiKoo</Text>
-        </p>
-        <p>
-          <Title>
-            Please submit your resume / CV along with your contact information
-            to {""}
-            <a
-              className={styles.email}
-              href="mailto:felix.ht.lam@fwd.com?subject=Apply for Analyst Programmer"
-            >
-              felix.ht.lam@fwd.com
-            </a>{" "}
-            and email subject as `
-            <span style={{ color: ORANGE }}>Apply for Analyst Programmer</span>
-            `.
-          </Title>
         </p>
       </div>
       <BottomBar />

@@ -19,7 +19,7 @@ export const TopMenuBar = () => {
       <div className={styles.menu}>
         <MenuItem label="Welcome" link="/" />
         <MenuItem label="About us" link="/about-us" />
-        {/* <MenuItem label="Join us" link="/join-us" /> */}
+        <MenuItem label="Join us" link="/join-us" />
       </div>
     </>
   );

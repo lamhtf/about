@@ -8,22 +8,21 @@ export default function AboutUs() {
       <TopMenuBar />
       <br />
       <div className={styles.content}>
-        <div className={styles.title}>Group IT Development Team</div>
-        <div className={styles.text}>
-          As a Group IT development team spearheading project development
-          initiatives across the APAC region, we are thrilled to announce that
-          our team is expanding.
-        </div>
-        <br />
-        <div className={styles.text}>
-          We are currently seeking talented Expo frontend developers to join us
-          in this exciting journey.
-        </div>
-        <br />
+        <div className={styles.title}>Our Team</div>
         <div className={styles.text}>
           As the best development team in Group IT, we hold ourselves to high
           standards and are constantly pushing ourselves to learn and grow with
           cutting-edge technologies.
+        </div>
+        <br />
+        <div className={styles.text}>
+          We are currently undergoing a team expansion to meet the demands of
+          new project opportunities across various countries in the APAC region.
+        </div>
+        <br />
+        <div className={styles.text}>
+          We are actively looking for talented React frontend developers to join
+          us on this exciting journey.
         </div>
       </div>
       <br />
@@ -93,13 +92,6 @@ export default function AboutUs() {
         </div>
       </div>
       <br />
-      <div className={styles.content}>
-        <div className={styles.title}>Thanks ChatGPT</div>
-        <div className={styles.text}>
-          Special thanks to ChatGPT for transforming my initial, broken English
-          introduction into a more refined and elegant piece of writing.
-        </div>
-      </div>
       <BottomBar />
     </>
   );

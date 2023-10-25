@@ -36,23 +36,23 @@ export default function Home() {
     <>
       <TopMenuBar />
       <div className={styles.content}>
-        <div className={styles.title}>Group IT</div>
+        <div className={styles.title}>Office South Area</div>
         <Image src={Image08} alt="Office" />
       </div>
       <div className={styles.content}>
-        <div className={styles.title}>Group Digital</div>
+        <div className={styles.title}>Office West Area</div>
         <Image src={Image01} alt="Office" />
       </div>
       <div className={styles.content}>
-        <div className={styles.title}>Group Brand & Marketing</div>
+        <div className={styles.title}>Office North Area</div>
         <Image src={Image07} alt="Office" />
       </div>
       <div className={styles.content}>
-        <div className={styles.title}>Pantry</div>
+        <div className={styles.title}>Pantry Part 1</div>
         <Image src={Image02} alt="Office" />
       </div>
       <div className={styles.content}>
-        <div className={styles.title}>Pantry</div>
+        <div className={styles.title}>Pantry Part 2</div>
         <Image src={Image03} alt="Office" />
       </div>
       <div className={styles.content}>
