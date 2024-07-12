@@ -34,7 +34,7 @@ export default function JoinUs() {
       <TopMenuBar />
       <br />
       <div className={styles.text} style={{ marginBottom: 16, marginLeft: 12 }}>
-        Job opening remains valid until the first week of November 2023
+        Job opening remains valid until the first week of August 2024
         <hr></hr>
         <p>
           <Title>
@@ -78,6 +78,10 @@ export default function JoinUs() {
           <Bullet>
             Passionate about technology and eager to acquire new technical
             skills
+          </Bullet>
+          <Bullet>
+            Eager to learn not just how to complete single tasks yourself but
+            also how to achieve team projects together
           </Bullet>
           <Bullet>
             Values teamwork and appreciates a culture of knowledge sharing and
@@ -128,7 +132,7 @@ export default function JoinUs() {
             and Chinese
           </Bullet>
           <Bullet>
-            Focus on Frontend development first then gradually get involved in
+            First focus on Frontend development then gradually get involved in
             some of the backend development
           </Bullet>
         </p>
