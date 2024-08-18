@@ -34,7 +34,8 @@ export default function JoinUs() {
       <TopMenuBar />
       <br />
       <div className={styles.text} style={{ marginBottom: 16, marginLeft: 12 }}>
-        Job opening remains valid until the first week of August 2024
+        Job opening remains valid as we are still expanding our team and looking
+        for the suitable candidates
         <hr></hr>
         <p>
           <Title>
